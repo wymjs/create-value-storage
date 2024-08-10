@@ -1,6 +1,6 @@
 {
 	"name": "@wymjs/create-value-storage",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"type": "module",
 	"description": "web storage 統一管理",
 	"main": "dist/index.js",
