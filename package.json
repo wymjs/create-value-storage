@@ -1,6 +1,6 @@
 {
 	"name": "@wymjs/create-value-storage",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"description": "web storage 統一管理",
 	"main": "dist/index.js",
@@ -8,12 +8,12 @@
 	"files": ["dist", "readme.md"],
 	"scripts": {
 		"build-package": "tsup index.ts --format esm --dts --clean",
-		"publish-package": "pnpm run build-package && npm publish  --access public",
+		"publish-package": "pnpm run build-package && npm publish --access public",
 		"lint": "eslint --fix --no-ignore --max-warnings=0",
 		"format": "prettier --cache --write",
 		"prepare": "husky install"
 	},
-	"homepage": "https://github.com/wymjs/react-atom",
+	"homepage": "https://github.com/wymjs/create-value-storage",
 	"keywords": [
 		"wymjs",
 		"typescript",
