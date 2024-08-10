@@ -3,6 +3,14 @@
 
 > web storage 統一管理
 
+## 安裝
+
+```shell
+pnpm i @wymjs/create-value-storage
+```
+
+## 使用
+
 ```typescript
 import { createValueStorage } from '@wymjs/create-value-storage'
 
